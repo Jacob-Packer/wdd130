@@ -1,18 +1,25 @@
-* {
-    color: black;
+:root {
+-- primary-color: 
 }
+/* * {
+    color: black;
+} */
 body {
     background-color: whitesmoke;
 }
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 header {
     background-color: #ceb777;
 }
 .logo {
-    width: 125px;
+    width: 80px;
 }
-
-
-
+    
 nav a {
     text-align: center;
     background-color: whitesmoke;
@@ -25,15 +32,12 @@ nav a:hover {
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-    background-color: #DAE7F2;
+        background-color: #dae7f28c
 }
-#hero-img {
+.hero-img {
     width: 100%;
 }
-.class {
-    max-width: 1600px;
-    margin: 0 auto;
-}
+
 
 #background {
     height: 725px;
@@ -42,9 +46,6 @@ nav a:hover {
 }
 main section {
     text-align: center;
-}
-main img {
-    width: 200px
 }
 
 h1, h2 {
