@@ -72,6 +72,7 @@ nav {
     background-color: black;
     background-clip: text;
 } */
+
 nav a:hover {
     color: var(--primary-color);
     /* 
@@ -114,6 +115,7 @@ h4 {
     background-image: var(--gradient2);
     color: black;
     text-align: center;
+
 }
 .emphasize {
     font-style: italic;
@@ -141,6 +143,16 @@ h4 {
     background-image: var(--gradient2);
     color: var(--primary-color);
     transform: scale(1.5);
+}
+.skew {
+    width: 95%;
+    height: 45px;
+    background: linear-gradient(135deg, #CEB777 8%, #1C74C4 50%, #442B48 92%);
+    border: 1px solid black;
+    transform: skew(20deg);
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 main section img {
     box-sizing: border-box;
