@@ -11,3 +11,6 @@ h2{
     font-size: 32px;
     color:rgb(25, 0, 139)
 }
+a {
+    display: block;
+}
