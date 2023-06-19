@@ -1,0 +1,55 @@
+
+body {
+    background-color: black;
+}
+.card {
+    overflow: hidden;
+    border-radius: 15px;
+    background: white;
+    max-width: 250px; 
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+header img {
+    width: 100%
+}
+h3 {
+    font-size: .8em;
+    color: rgb(20, 82, 136);
+}
+p {
+    font-family: "Roboto";
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div {
+    color: rgb(117, 98, 98);
+    
+}
+h5 {
+    font-size: 1.2em;
+}
+footer {
+    height: 60px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    
+}
+footer div {
+    background-color: rgb(20, 82, 136);
+    color: white;
+    
+}
+.border {
+    gap: 1px;
+}
+footer div p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;   
+}
+.small_text {
+    font-size: 0.7em;
+}
