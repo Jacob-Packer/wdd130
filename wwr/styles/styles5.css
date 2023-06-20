@@ -2,13 +2,18 @@
     --gradient: linear-gradient(135deg, #C31A86 8%, #933FA0 50%, #00ADEE 92%);
 }
 .skew {
-        width: 95%;
-        height: 45px;
-        background: linear-gradient(135deg, #C31A86 8%, #933FA0 50%, #00ADEE 92%);
-        border: 1px solid black;
-        transform: skew(20deg);
-        border-radius: 3px;
-        margin: 0 auto;
+    width: 95%;
+    height: 45px;
+    background: linear-gradient(135deg, #C31A86 8%, #933FA0 50%, #00ADEE 92%);
+    border: 1px solid black;
+    transform: skew(20deg);
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.normal-text {
+    color: black;
+    margin: 0 auto;
+    transform: skew(-20deg);
 }
     /* height: 20px;
     width: 90%;
@@ -47,8 +52,8 @@
     box-shadow: 2px 2px 2px #9c9c9c;
     border: solid var(--gradient) 4px;
      */
-    /* border-color: var(--gradient); */
-}
+    /* border-color: var(--gradient); 
+}*/
 body {
     background: rgb(39, 39, 39);
 }
