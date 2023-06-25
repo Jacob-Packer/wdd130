@@ -1,16 +1,35 @@
-h1{
-    font-size: 72px;
+body {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: rgba(198, 240, 229, 0.737);
 }
-img{
-    width: 35%;
+h1{
+    font-size: 3em;
+}
+
+img {
+    width: 350px;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid var(--accent1-color);
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 p{
-    font-size: 24px;
+    font-size: 1.2em;
 }
 h2{
-    font-size: 32px;
+    font-size: 1.5em;
     color:rgb(25, 0, 139)
 }
 a {
     display: block;
+}
+.secret {
+    color: rgba(198, 240, 229, 0.737);
 }
