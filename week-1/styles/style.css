@@ -1,4 +1,23 @@
-body {
+/* For the chuckle */
+h1{
+    font-size: 72px;
+}
+img{
+    width: 35%;
+}
+p{
+    font-size: 24px;
+}
+h2{
+    font-size: 32px;
+    color:rgb(25, 0, 139)
+}
+a {
+    display: block;
+}
+
+/* After Edits */
+/* body {
     text-align: center;
     font-size: 1.2em;
     background-color: rgba(198, 240, 229, 0.737);
@@ -32,4 +51,4 @@ a {
 }
 .secret {
     color: rgba(198, 240, 229, 0.737);
-}
+} */
