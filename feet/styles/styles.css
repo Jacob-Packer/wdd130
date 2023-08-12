@@ -27,6 +27,7 @@ div.container {
 footer {
     background-color: lightblue;
     border-radius: 10px;
+    max-width: 90%;
 }
 h3 {
     padding: 5px;
