@@ -1,0 +1,91 @@
+h2, #caption {
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+body {margin:25px;}
+
+div.polaroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 120%;
+}
+footer {
+    background-color: lightblue;
+    border-radius: 10px;
+}
+h3 {
+    padding: 5px;
+    text-emphasis: none;
+    font-size: 1.1em;
+}
+a {
+    padding: 5px;
+    display: inline;
+    text-decoration: underline;
+    color: black;
+}
+a:visited {
+    text-decoration: underline;
+    color: black
+}
+
+
+/* * {
+    background-color: darksalmon;
+    padding: 10px;}
+
+h2 {
+    color: deeppink;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+}
+img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 20%;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 5px;
+  width: 150px;
+  max-width: 150%;
+  height: auto;
+}
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+section figcaption {
+    text-align: center;
+    padding: 10px 20px;
+}
+figcaption {
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+}
+section {
+    display
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+} */
